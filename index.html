@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Rápida Express</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Comida Rápida Express</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Sobre el autor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Carrusel de Imágenes -->
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="slider3.png" class="d-block w-100" alt="Hamburguesas">
+            </div>
+            <div class="carousel-item">
+                <img src="food9.png" class="d-block w-100" alt="Pizza">
+            </div>
+            <div class="carousel-item">
+                <img src="food4.png" class="d-block w-100" alt="Burritos">
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca" class="container my-5 animate__animated animate__fadeIn">
+        <h2 class="text-center">Bienvenido a Comida Rápida Express</h2>
+        <p>En nuestra tienda ofrecemos las mejores hamburguesas, pizzas, burritos, papas fritas y bebidas, todo preparado al instante para que disfrutes de una experiencia deliciosa y rápida. ¡Ven y prueba lo mejor de la comida rápida!</p>
+    </section>
+
+    <!-- Sección Menú -->
+    <section id="menu" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestro Menú</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Hamburguesas</h4>
+                    <p>Hamburguesas jugosas con ingredientes frescos y pan artesanal.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Pizzas</h4>
+                    <p>Pizzas al estilo italiano con los mejores ingredientes.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Papas Fritas</h4>
+                    <p>Papas crujientes, recién hechas para acompañar tu comida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="container my-5">
+        <h2 class="text-center">Lo que Dicen Nuestros Clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote>
+                    "Las mejores hamburguesas que he probado, siempre frescas y deliciosas."
+                </blockquote>
+                <footer>Por @aime.gm</footer>
+            </div>
+            <div class="col-md-4">
+                <blockquote>
+                    "Me encanta la pizza, siempre perfecta y con ingredientes frescos."
+                </blockquote>
+                <footer>Por @_ancarmen</footer>
+            </div>
+            <div class="col-md-4">
+                <blockquote>
+                    "Excelente servicio, las papas fritas son irresistibles."
+                </blockquote>
+                <footer>Por @chris_00</footer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Formulario de Registro -->
+    <section id="formulario" class="container my-5">
+        <h2 class="text-center">Formulario de Registro</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña" required>
+            </div>
+            <button type="submit" class="btn btn-danger">Registrarse</button>
+        </form>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="bg-danger text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <p>Visítanos en nuestra tienda o contáctanos a través de nuestras redes sociales o correo electrónico.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Comida Rápida Express. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

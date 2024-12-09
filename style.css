@@ -1,0 +1,42 @@
+/* Personalización de colores y estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el navbar */
+.navbar {
+    background-color: #d9534f;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Sección de carrusel */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Sección de menú */
+#menu .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección de contacto */
+#contacto {
+    background-color: #d9534f;
+}
+
+/* Sección de pie de página */
+footer {
+    background-color: #333;
+    color: white;
+}
